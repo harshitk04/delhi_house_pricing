@@ -1,11 +1,16 @@
-import React from "react";
+// Navbar.tsx
 
 const Navbar = () => {
-  return (
-    <nav style={{ padding: "10px", backgroundColor: "#1e3a8a", color: "white" }}>
-      <h1>Delhi House Price Prediction</h1>
-    </nav>
-  );
-};
-
-export default Navbar;
+    return (
+      <nav className="bg-blue-600 py-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="flex-1 text-center">
+            <h1 className="text-white text-2xl font-bold">House Prediction</h1>
+          </div>
+        </div>
+      </nav>
+    );
+  };
+  
+  export default Navbar;
+  
