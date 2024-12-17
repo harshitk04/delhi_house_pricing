@@ -42,7 +42,6 @@ const PredictionForm = () => {
           Enter House Details
         </h2>
         <form onSubmit={(e) => e.preventDefault()} className="space-y-6">
-          {/* Location Selection */}
           <div>
             <label
               htmlFor="location"
@@ -65,7 +64,6 @@ const PredictionForm = () => {
             </select>
           </div>
 
-          {/* Bedrooms Input */}
           <div>
             <label
               htmlFor="bedrooms"
@@ -82,7 +80,6 @@ const PredictionForm = () => {
             />
           </div>
 
-          {/* Area Input */}
           <div>
             <label
               htmlFor="area"
@@ -99,7 +96,6 @@ const PredictionForm = () => {
             />
           </div>
 
-          {/* Predict Button */}
           <div>
             <button
               type="button"
@@ -111,7 +107,6 @@ const PredictionForm = () => {
           </div>
         </form>
 
-        {/* Price Prediction */}
         {pricePrediction !== null && (
           <div className="mt-6 text-center">
             <h3 className="text-xl font-semibold text-gray-800">
